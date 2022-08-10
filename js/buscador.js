@@ -1,4 +1,4 @@
-export default function buscador(e){
+/* export default function buscador(e){
     let lista = document.querySelector(".container");
     lista.forEach( poke=>{
         console.log(poke)
@@ -6,4 +6,4 @@ export default function buscador(e){
             ?poke.classList.remove("ocultar") 
             :poke.classList.add("ocultar");
     });
-  }
+  } */
