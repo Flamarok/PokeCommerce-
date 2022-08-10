@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/poke icon.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <title> Pedimon </title>
+</head>
+<body>
+    <header>
+       <a href="index.html"> <img src="../img/pedimon-logo.png" alt="logo pedimon"></a>
+        <div class="menu">
+            <ul>
+                <li><a href="#section1">Acerca</a></li>
+                <li><a href="#section2">Productos</a></li>
+                <li><a href="#section3">Carrito</a></li>
+                
+            </ul>
+        </div>
+    </header>
+
+    <section class="principal">
+        <div class="side "> <img src="../img/loader pika.gif" alt="pika corriendo">
+        <p>Corré tan rapido como Pikachu para comprar tus POKEMONES. <br> <span>dale que se agotan! </span> </p>
+        </div>
+        <div class="side2"> <img src="../img/pikachu-hero.png" alt=""></div>
+    </section>
+    
+
+        <section class="acerca" id="section1">
+            
+
+        <h3> No te quedes sin tu POKEMON!</h3>
+            <p>
+                Dale no te vayas sin tu Pokemon, hace tu pedido! es muy facil!!
+            </p>
+                                
+            <div class="items">            
+              <div class="info">
+                <img src="../img/info-icon-1.png" alt="icono agua">    
+                    <p> Elegis el Pokemon que vos quieras de la lista.</p>
+              </div>
+                
+                <div class="info">
+                    <img src="../img/info-icon-2.png" alt="icono rayo">    
+                    <p>Los agregas al carrito. </p>
+                </div>
+                
+                <div class="info">
+                    <img src="../img/info-icon-3.png" alt="icono fuego">    
+                    <p>Y listo ya tenes a tu Pokemon, solo tenes que esperar un par de años para que te llegue </p>
+                </div>
+            </div>   
+          
+
+
+        </section>
+                
+        <section class="contenedor" id="section2">
+            
+            <section class="cards" id="ListaProductos"> </section>
+            
+        </section>
+        <!-- section carrito -->
+        <section class="carrito" id="section3">
+
+            <div>
+            <h3>Aqui esta su carrito</h3>
+            <img src="https://cdn-icons-png.flaticon.com/512/107/107831.png" alt="" srcset="" class="carritoimg">
+            </div>
+            <table id="lista-carrito">
+                <thead>
+                    <!-- <tr>
+                        <th>imagen</th>
+                        <th>nombre</th>
+                        <th>precio</th>
+                        <th>cantidad</th>
+                        <th></th>
+                    </tr> -->
+                    
+                    <tbody></tbody>
+                </thead>
+
+            </table> 
+            <div class="botones">
+            <button id="BTNLimpiarCarrito" class="BtnLimpiar">Vaciar Carrito</button>
+                    <button id="BTNComprar" class="BTNComprar"> Comprar </button>
+                </div>   
+            </div>
+            
+
+        </section>
+
+
+
+
+        <footer>
+            <div class="git">
+                <a href="https://github.com/Flamarok"> by:Franco Anderson </a>
+
+            </div>
+        </footer>
+        <script src="./js/app.js" type="module"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        
+</body>
+</html>
