@@ -3,7 +3,9 @@ export const carrito = document.querySelector('#contenedorCarrito') ,
         ListaProductos = document.querySelector('#ListaProductos'),
         vaciarCarritoBoton = document.querySelector('#BTNLimpiarCarrito'),
         botonComprar = document.querySelector('#BTNComprar'),
-        botonAgregar = document.querySelector('#Agregar');
+        botonAgregar = document.querySelector('#Agregar'),
+        buscador = document.querySelector("#nombre")
+        ;
        
 
 

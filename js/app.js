@@ -4,9 +4,9 @@ import { pokemones } from "./DB.js";
 
 import { MostrarPokemons } from "./MostrarPokemons.js";
 
+import  buscador  from "./buscador.js";
 
 import * as V from "./variables.js";
-
 
 
 
@@ -18,7 +18,7 @@ window.addEventListener('load', ()=>{
 
     MostrarPokemons(pokemones);
     
-
+    
 })
 
 
@@ -28,8 +28,9 @@ document.addEventListener('DOMContentLoaded',()=>{
     V.vaciarCarritoBoton.addEventListener('click',eliminarcarrito)
     V.botonComprar.addEventListener('click',RealizarCompra)
 
-   
+    V.buscador.addEventListener('keyup', buscador());
 
+   
     
 })
 
